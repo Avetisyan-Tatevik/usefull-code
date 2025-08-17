@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./main.module.scss";
 import { SearchWithOnChange } from "../Shared/SearchFunctionality/SearchWithOnChange";
-import { SecondSearch } from "../Shared/SearchFunctionality/SearchWithOnChange";
 import { SearchWithUseRef } from "../Shared/SearchFunctionality/SearchWithUseRef";
 import { SearchWithDebounce } from "../Shared/SearchFunctionality/SearchWithDebounce";
 import SearchWithLodash from "../Shared/SearchFunctionality/SearchWithLodashDebounce";
@@ -13,7 +12,6 @@ const Main = () => {
       <SearchWithUseRef />
       <SearchWithDebounce />
       <SearchWithLodash />
-      <SecondSearch />
     </div>
   );
 };
